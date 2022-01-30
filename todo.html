@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./todo.css">
+
+    <title>Best Todo List Online</title>
+
+
+</head>
+<body>
+
+    <h1 class="title">Let's Get Shit Done</h1>
+     
+        <div class="todo-wrapper">
+            <div class="todo-header">
+              <h2 class="list-title">Personal To Do List</h2>
+              <p id="counter">for every task completed - a personal motivational quote is waiting for you. So keep going! </p>
+            </div>
+ 
+
+        <form name="todo-adder">
+            <input type="text" id="todo-entry-box">
+        </form>
+
+        <button id="add-button" class="pretty-button">Add</button>
+        <br/>
+        <ol id="todo-list">
+        </ol>
+        
+        <div id="control-wrapper">
+            <button id="clear-completed-button" class="pretty-button">Clear Completed</button>
+            <button id="empty-button" class="pretty-button">Empty List</button>
+
+        
+        </div>
+    </div>
+
+ 
+
+<!--quotes-->
+<divid class="quotes-wrapper">
+<div id="quotes-title"></div>
+<div id="quotes-text"></div>
+</div>
+
+
+ 
+
+
+<script src="./todo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+
+
+
+</body>
+</html>
